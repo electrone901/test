@@ -1,3 +1,4 @@
+// it is was working here
 import axios from 'axios';
 
 export function fetchTopics() {
@@ -9,9 +10,8 @@ export function fetchTopics() {
 	};
 }
 
-
-export function selectedTopics(payload){
-	return {
-		type: "SELECTED_TOPICS", payload: payload
-	}
+//here is going to be the api call
+export function selectedTopics(payload) {
+	return {type: 'SELECTED_TOPICS', payload};
 }
+
