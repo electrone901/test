@@ -6,7 +6,7 @@ import StudentContainer from '../features/student/StudentContainer';
 
 import TopicContainer from '../features/topic/TopicContainer';
 import Grade from '../features/grade/Grade';
-import Branch from '../features/Branch1';
+import Branch3 from '../features/Branch3';
 
 
 export default (
@@ -15,6 +15,6 @@ export default (
 		<Route path='/topic' component={TopicContainer}/>
 		<Route path='/mentor' component={MentorContainer}/>
 		<Route path='/grade' component={Grade}/>
-		<Route path='/branch1' component={Branch}/>
+		<Route path='/branch3' component={Branch3}/>
 	</Route>
 );
